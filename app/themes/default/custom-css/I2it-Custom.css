@@ -1,0 +1,711 @@
+/** 
+  * This section written for $ symbol changes
+  * @Atuthor Thamodaran (thamodaran@ideas2it.com)
+  */
+ 
+#Contact_annualRevenuCstm_value,
+#Account_propValueCstm_value,
+#Account_avghouseIncoCstm_value,
+#Product_sellPrice_value, 
+#OpportunityProduct_Total_Direct_Cost_value, 
+#OpportunityProduct_Burden_Cost_value,
+#OpportunityProduct_Equipment_Cost_value, 
+#OpportunityProduct_Labor_Cost_value, 
+#OpportunityProduct_Final_Cost_value, 
+#OpportunityProduct_Materials_Cost_value, 
+#OpportunityProduct_Other_Cost_value, 
+#OpportunityProduct_Sub_Cost_value,
+
+#Opportunity_budget_value,
+#Opportunity_expectedRevenue_value,
+#Agreement_Project_Agreement_Amount_value,
+#Agreement_Current_Annual_Amount_value,
+#Agreement_Total_Direct_Costs_value,
+#Agreement_budget_value
+{
+	width:132%;
+}
+
+    
+
+#Opportunity_amount_value,
+#LeadConvertOpportunityView #Opportunity_budget_value
+{
+        width:130%;
+}
+
+.replaceDoller{
+	display:inline;
+	width:3%;
+	padding-top:5px;
+	text-align:right;
+}
+
+#Opportunity_estimatorApproval{
+	right:10%;
+}
+
+.costBookAssemblyStep2Header,
+.costBookAssemblyStep2Header th{
+    background-color:#E0D1D1;
+    color: black;
+    padding:0.5%;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+}
+
+#detail_products table tr th,
+#costBookAssemblyStep2Headerid tr th label,
+#costBookAssemblyStep2HeaderTable th,
+.costBookAssemblyStep2Header th{
+    font-weight: bold;
+}
+
+.border_top_In_Assembly_Detail_Level{
+    border : 1px solid gray;
+    border-top: 3px solid gray;
+    margin-bottom: 1.5%;
+}
+
+.costBookProductCodePrependText{
+    margin: 2px 0px 4px 52px;
+    height:26px; 
+    display: inline-block; 
+    font-size: 15px;
+}
+
+/** 
+  * This section written for tables in manual written views
+  */
+#add_product_outer{
+    margin-bottom:2%;  
+  }  
+#outer th{
+    color:black; 
+    font-weight:bold;
+    padding:0.5% 0% 0.5% 1%;
+}
+#outer td{
+    padding:0.7% 0% 0.7% 1%;
+}
+.commen_table{
+    margin:1%;
+}
+.table_border_width{
+        width:100%;
+        border:solid 1px gray;
+        margin-top:1%; 	
+        border-collapse: collapse;
+        padding:0.5%;
+}
+.selected_products_table td{
+    padding:0.5%;
+}
+#searchProducts, #costbook_searchProducts{
+    border:solid 1px black;
+    
+}
+#selected_products{
+    margin-top:2%;
+}
+.selected_products_table th{
+    font-weight:bold;
+    padding:0.5%;
+}
+#add_Product_list_table{
+    padding: 0px;
+}
+#add_Product_list_table td{
+    border:solid 1px gray;
+}
+#add_Product_List_table_Value{
+    width:100%;
+}
+#add_Product_List_table_Value tr td{
+    padding:0.5%;
+    color:black;
+}
+#add_Product_Save_Goback_inner{
+    margin: 1% 0% 0.5% 40%;
+}
+#add_Product_Save_Goback_inner #go_Back,
+#add_Product_Save_Goback_inner #save_And_More,
+#add_Product_Save_Goback_inner #save{
+    padding:0.3%;
+}
+#selected_products_inner_table tr td,
+#selected_products_inner_table tr th{
+    padding: 0.5%;
+}
+.table_border_width th td{
+        /*border:solid 1px gray;*/
+        /*border-spacing: 0px;*/
+        padding:0.3%;
+        /*border-collapse:collapse;*/
+}
+#top_table, 
+#add_product_outer, 
+#select_Category_And_COGS{
+        width: 100%;
+}
+
+.col_span{
+        colspan:11;
+}
+#selected_products table,
+#add_product_search table{
+        width:98%;
+        margin:2% 1% 2% 1%;
+}
+#add_product_search{
+    width:100%;
+    margin:2% 0% 2% 0%;
+}
+#selected_products table table{
+        width:96%;
+        margin-left:2%;
+}
+.align_left{
+        text-align: left;
+}
+.border_top_color{
+        border-top:solid 2px #E0D1D1;
+}
+/** Remove background color for search button in add product page*/
+#saveyt2{
+    background-color: none;
+}
+#selected_products_inner_table table:first-child th{
+        background-color:gray;
+}
+#selected_products_inner_table tr th,
+#select_Category_And_COGS tr th
+{
+    font-weight:bold;
+}
+#add_Products_In_Opportunity{
+    width:100%;
+}
+#list-view{
+    width:100%;
+}
+#showresults{
+    display:inline-block;
+    text-align: center;
+    width: 70%;
+    margin-left:6%;
+    color:green; 
+    font-weight:bold;
+}
+
+.moveaddright{
+     margin-bottom:15px!important;
+}
+.moveestimateright{
+     right: 93px;
+}
+.empty {
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+}
+#FlashMessageView{
+    top :75px;
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+}
+.details-table td{
+    word-break: normal !important;
+}
+.ui-state-disabled {  
+  opacity: 0.35 !important;
+}
+/* css for timepicker */
+
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div .ui_tpicker_hour div { padding-right: 2px; }
+.ui-timepicker-div .ui_tpicker_minute div { padding-right: 6px; }
+.ui-timepicker-div .ui_tpicker_second div { padding-right: 6px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-timepicker-div .ui-datepicker-title{
+    background-color: #383838;
+    width:100%;
+}
+.route-bold{
+    font-weight: bold;
+    padding-left: 20px;
+    color: #999999;
+}
+.route-table{
+    display: table;
+}
+.route-table-row{
+    display:table-row;
+}
+.route-table-cell{
+    display: table-cell;
+}
+.routePanelTitle{
+    color: #282a76;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 1% ;
+}
+
+#opt_scroll_result, #costbook_scroll, #agmnt_scroll_result, #agmntTracking_scroll_result, #costbookAsemStep {
+    height: 250px;
+    overflow: auto;
+    background-color: #ffffff;
+    scrollbar-base-color: #ff8c00;
+    scrollbar-arrow-color: white;
+}
+
+.checkbox-width{
+    text-align: center;
+    width: 16px;
+}
+
+.padding-2 {
+    padding: 2%;
+}
+
+.AdditionalContact{
+    margin-bottom: 0px !important;
+    text-align: center;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #f5f5f5 !important;
+}
+
+.AdditionalContact > a{
+    padding: 2px 5px 1px !important;
+}
+.pad-0{
+    padding:0px !important;
+}
+
+.AdditionalContact .z-label{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+#forgotpwd > a > label{
+    margin:2% 0% 0% 5%; 
+    cursor: pointer;
+}
+
+#sub-id{
+    width:50%;
+}
+
+#jobDetailsTable
+{
+    border-collapse: collapse;
+    margin:0 2% 2% 2%; 
+    width:96%; 
+    border: 1px solid black;
+}
+
+#jobEditDetailsTable
+{
+    border-collapse: collapse;
+    margin:0 2% 2% 2.5%; 
+    width:95%; 
+    border: 1px solid black;
+}
+
+#jobDetailsTable td, #jobEditDetailsTable td{
+    border-color : #C1CDCD;
+}
+
+.ScrollStyle{
+    max-height:500px;
+    width:100%;
+    overflow:scroll;
+    overflow-x:hidden;
+    overflow-y:scroll;    
+}
+.AppNavigation{
+        z-index: 99999 !important; 
+}
+
+@media (min-width: 640px) and (max-width: 1109px) {
+    .selectedassembly{
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 1110px) and (max-width: 1680px) {
+    .selectedassembly{
+        margin-left: 41%;
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1109px) {
+    .items{
+        font-size: 10px !important;
+    }
+    
+     /*heading*/
+    .productcodeh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    .pronameh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    .unitofmeasureh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }.qtyh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }.frequencyh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    .totalmhrh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    .otherrowsh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    .prototalh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    .oppproductsh{
+        font-weight: bold;padding: 0.1px;text-align:center;
+    }
+    
+    
+    /*tr*/    
+    .productcode{
+        width: 1%; text-align: left; padding: 0.1px;
+    }
+    .proname{
+       width: 1%; text-align: left; padding: 0.1px;
+    }
+    .otherrows{
+        width: 1%;padding-top: 2px; text-align: right; padding: 0.1px;
+    }
+    .prototal{
+        width: 1%;  padding-top: 2px; padding: 0.1px;
+    }
+    .frequency{
+        width: 1%; text-align: center;padding: 0.1px;
+    }
+    .totalmhr{
+        width: 1%; text-align: center; padding: 0.1px;
+    }
+    .qty{
+        width: 1%; text-align: center; padding: 0.1px;
+    }
+    .unitofmeasure{
+        width: 1%; text-align: center; padding: 0.1px;
+    }
+    
+/*    .noofproducts{
+        padding: 0.1px;
+    }      */
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .estimatesummary{
+        font-size: 9px !important;
+    }
+     .selected_products_table{
+        font-size: 10px !important;
+    }
+}
+    
+@media (min-width: 1110px) and (max-width: 1530px) {
+    .colspandetailsh{
+        color: #000 !important;
+    }
+    /*heading*/
+    .productcodeh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .pronameh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .unitofmeasureh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }.qtyh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }.frequencyh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .totalmhrh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .otherrowsh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .prototalh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .oppproductsh{
+        font-weight: bold;padding: 10px;text-align:center;
+    }
+    .colspandetailsh{
+        padding: 3px;font-weight: bold;background-color:gray;color:white;
+    }
+    
+    /*tr*/    
+    .productcode{
+        width: 8%; text-align: left; padding: 3px;
+    }
+    .proname{
+       width: 15%; text-align: left; padding: 3px;
+    }
+    .otherrows{
+        width: 6%;padding-top: 2px; text-align: right; padding: 3px;
+    }
+    .prototal{
+        width: 16%;  padding-top: 2px; padding: 3px;
+    }
+    .frequency{
+        width: 5%; text-align: center; padding: 3px;
+    }
+    .totalmhr{
+        width: 6%; text-align: center; padding: 3px;
+    }
+    .qty{
+        width: 5%; text-align: center; padding: 3px;
+    }
+    .unitofmeasure{
+        width: 4%; text-align: center; padding: 3px;
+    }
+    
+  
+}
+
+.AppContent label{font-weight:bold !important;}
+.form-fields th label {
+    line-height: 15px !important;
+    color: #999 !important;
+}
+#AgreementRecurringEditAndDetailsView .wrapper .attributesContainer .panel table th label, #AgreementProjectEditAndDetailsView .wrapper .attributesContainer .panel table th label,#OpportunityProjectEditAndDetailsView .wrapper .attributesContainer .panel table th label,#ContactEditAndDetailsView .wrapper .attributesContainer .panel table th label, #AccountEditAndDetailsView .wrapper .attributesContainer .panel table th label,#LeadEditAndDetailsView .wrapper .attributesContainer .panel table th label{padding-right: 15px !important;text-align: right !important;float:right !important;}
+#AgreementRecurringEditAndDetailsView .wrapper .attributesContainer .left-column,#AgreementProjectEditAndDetailsView .wrapper .attributesContainer .left-column, #OpportunityProjectEditAndDetailsView .wrapper .attributesContainer .left-column, #ContactEditAndDetailsView .wrapper .attributesContainer .left-column, #AccountEditAndDetailsView .wrapper .attributesContainer .left-column, #LeadEditAndDetailsView .wrapper .attributesContainer .left-column{width: 100% !important;}
+.empty{margin: auto !important;}
+
+.form-fields td,.form-fields th{vertical-align: middle !important;}
+.form-fields td{padding-bottom: 7px !important;}
+/*.panel table tr{height:40px !important;}*/
+.OpportunityDetailsPortletView .items > tbody > tr > th, .items > thead > tr > th{white-space: normal !important;line-height: 20px !important;}
+.view-toolbar-container .items {border : solid #dfdfdf 1px;}
+.OpportunityDetailsPortletView .items{border : solid #dfdfdf 1px;}
+.add_Product_List_table_Value{    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+.items > tbody td, .items > thead td{border: none !important;}
+div.form span.required{padding: 0px !important;}
+.float-bar{z-index: 5001 !important;}
+.product_code_col {line-height: 20px !important;white-space: normal !important;}
+.route_value_rows{padding: 0px !important;}
+.route_header_rows th, .route_header_rows td{text-align: center !important;}
+th.align_left{text-align: left !important;}
+.route_header_div{padding-right: 10px;}
+#RecentlyViewedView .nav{overflow-y:scroll;overflow-x: hidden;max-height: 175px;}
+.nav-collapsed #RecentlyViewedView{padding: 20px 0px !important;}
+.nav-collapsed #MenuView{padding: 65px 0 0 0 !important;}
+.selectall_div {
+    font-size: 15px !important;
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-right: 27px;
+    text-align: right;
+}
+
+.opp_productlist_table {margin: 1%;}
+.ReportResultsGridView #report-results-grid-view > .items td{border-left : none !important;}
+.ReportResultsGridView #report-results-grid-view > .items tr.expanded-row td{border-left:1px solid #DFDFDF !important;}
+.noofproducts {font-weight: 300;float: right;color: #545454;} 
+.opportunity_productlist_header{float: left;}
+#EstimateSummaryView .estimatesummary{margin-top: 2%;}
+.opportunity_productlist_div{ border: 1px solid gray; padding-bottom: 11px;margin-top: 1%; }
+.colspandetailsh{
+       padding: 0.1px;font-weight: bold;background-color:gray !important;color:white !important;
+    }
+
+#WelcomeView .dashboard-link{
+    margin-top: 0px;
+}
+
+.KPI_Inner_Span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin:7.5%;
+    font-weight: bold;
+    color: #545454;
+}
+
+.KPI_Topics{
+    display: block; 
+    text-align: center; 
+    font-size: 18px; 
+    margin-top: 7.5%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#demo > ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#demo > ul.pagination li {display: inline;}
+
+#demo > ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#WelcomeView .juiportlet-widget{
+    margin-right: 0px;
+}
+.outlook_link_div {
+   overflow: hidden;
+}
+
+a.outlook_sync{float: right; }
+
+.kpi_div{
+    height: 140px;
+    margin-top: 2%;
+}
+.kpi_sub_topic{
+    height: 49.5%;
+    width: 100%;
+    float :left;
+    background-color: #EEEEEE;
+}
+
+.kpi_sub_topic_span{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin:3%;
+    font-weight: bold;
+    color: #545454
+}
+
+.kpi_inner_div{
+    height: 100%;
+    width: 33%;
+    float :left;
+    border: thin solid #ccc;
+}
+
+.kpi_topic_div{
+    height: 50%;
+    width: 100%;
+    float :left;
+}
+#CURRENT_GPM_YTD_VS_AGREEMENT_GPM_PRO_ID{
+    margin-top: 2.5%;
+}
+.table-wrapper { 
+    overflow-x:scroll;
+    overflow-y:visible;
+     margin-left: 170px;
+}
+#report_table_home thead tr th:first-child, #report_table_home tbody tr th:first-child {
+    position: absolute;
+    left: 5px;
+}
+#report_table_home thead tr th:first-child,.first_child:first-child, .report_col_total_label{padding: 10px;width: 165px;}
+.table-wrapper { 
+    overflow-x:scroll;
+    overflow-y:visible;
+}
+.report_row_total, .report_col_total, .report_col_total_label{background:#3d3d3d url("../images/dark-texture-table-footer.png") repeat-x scroll left top !important;color:#fff;font-weight: bold;}
+#REPORTS_IN_YEAR_BASED_REC_ID {
+    display: none;
+}
+#reports_agreements{
+    height: 400px;
+}
+.dashBoard_Chart{
+    width:33%;
+    float:left;
+    border: 2px solid #DFDFDF;
+    border-top-width: 3px;
+    border-top-color: #DFDFDF;
+}
+#rec_dashBoard_Chart{
+    margin: 0 0 0 0.4%;
+}
+#track_dashBoard_Chart{
+    margin: 0 0 0 0.4%;
+}
+#chartContainerProject .amChartsLegend, 
+#chartContainerRecurring .amChartsLegend, 
+#chartContaineragmnt_Vs_tracking .amChartsLegend, 
+#chartContainerJob_weekly_sch .amChartsLegend,
+#chartContainerClosed_Sale .amChartsLegend,
+#chartContainerPipline .amChartsLegend{
+    display: none;
+}
+.dashBoard_step_two_chart{
+    width: 49.75%;
+    float: left;
+}
+#pipeline{
+    margin-right: 0.5%;
+    /*float: left;*/
+}
+.dashBoard_JobWeeklySchChart{
+    border: 2px solid #DFDFDF;
+    border-top-width: 3px;
+    border-top-color: #DFDFDF;
+    margin-top: 2.5%;
+}
+.dashBoard_JobWeeklySchChart .chart_header, .dashBoard_Chart .chart_header{
+    background-color: #dcdcdc;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 10%;
+    padding: 1%;
+    text-align: center;
+}
+.chart_outer{
+    height: 290px;
+    width:100%;
+    margin-top: 2.5%;
+}
+.KPI_Topics{
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFFFFF, 0 0 5px #FFFFFF;
+}
+.kpi_inner_div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#WEEKLY_SCHEDULED_HOURS{
+    overflow-x: scroll;
+}
+.preloader {
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 999; 
+    width: 100%; 
+    height: 100%;
+    overflow: visible;
+    background: #333 url('../images/loading-transperncy.gif') no-repeat center center;
+    opacity: 0.90
+}
+.table_content_scroll{
+    overflow-y: auto;
+    height: 200px;
+}
+.report_contents th{
+    width: 20%;
+}

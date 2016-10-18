@@ -1,0 +1,14 @@
+<?php
+
+    /**
+     *  Class used to interact with controller 
+     * 
+     * @author Ramachandran.K 
+     */
+	class ApprovalProcessUtils   {
+		
+		public function generateHTMLForApprovalInOppt() {
+						
+		}
+	}
+?>
