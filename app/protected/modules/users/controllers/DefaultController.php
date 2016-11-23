@@ -944,7 +944,7 @@
 
                         $mailContent = array(
                             'subject' => '[VERTWARE] REQUEST FOR PASSWORD RESET',
-                            'content' => 'Hi, <br> <p> Here is the link to reset your password. <br><br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> Vertware'
+                            'content' => 'Hi, <br> <p> Here is the link to reset your password. <br><br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks'
                         );
 
                         $fromAddress = array(

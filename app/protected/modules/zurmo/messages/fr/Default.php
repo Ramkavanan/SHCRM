@@ -181,8 +181,8 @@
             => 'Configurer',
         'Convert'
             => 'Convertir',
-        'Copyright &#169; Vertware Inc., 2013. All Rights reserved.'
-            => 'Copyright &#169; Vertware Inc., 2013. Tous droits réservés.',
+        'Copyright &#169; ShinnedHawks Inc., 2013. All Rights reserved.'
+            => 'Copyright &#169; ShinnedHawks Inc., 2013. Tous droits réservés.',
         'Could not remove relation.'
             => 'Impossible de supprimer la relation.',
         'Could not save relation.'

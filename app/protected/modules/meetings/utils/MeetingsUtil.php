@@ -258,7 +258,7 @@
                        <p style="height:8px"><span style="margin-right:9px"><b>Attendees</b></span><span>: <ul> '.$attendeesList.'</ul></span></p>
                        <p style="height:10px"><span style="margin-right:5px">Organized by</span>:<span> ' . $accountAssigner->getFullName() . '</span></p>
                        <p style="height:10px"><span style="margin-right:8px">Please see </span>: <span><a href="' . $linkUrl . '"> ' . $linkUrl . '</a></span></p>
-                       <br/><hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>Vertware</b></p>' 
+                       <br/><hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>ShinnedHawks</b></p>' 
             );
             if(count($recipients) > 0){
                 ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);
@@ -368,7 +368,7 @@
                         <p style="height:8px"><span style="margin-right:9px"><b>Description</b></span><span>: <ul> '.$model->description.'</ul></span></p>
                         <p style="height:10px"><span style="margin-right:5px">Organized by</span>:<span> ' . $accountAssigner->getFullName() . '</span></p>
                         <p style="height:10px"><span style="margin-right:8px">Please see </span>: <span><a href="' . $linkUrl . '"> ' . $linkUrl . '</a></span></p>
-                        <br/><hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>Vertware</b></p>' 
+                        <br/><hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>ShinnedHawks</b></p>' 
             );            
 
 //            if(count($recipients) > 0){
@@ -477,7 +477,7 @@
                         <p style="height:4px;line-height:0.5px"><span style="margin-right:5px">Start Time </span>:<span> ' . DateTimeUtil::convertDbFormattedDateTimeToLocaleFormattedDisplay($model->startDateTime) . '</span></p>
                         <p style="height:4px;line-height:0.5px"><span style="margin-right:14px">End Time</span>: <span> ' . DateTimeUtil::convertDbFormattedDateTimeToLocaleFormattedDisplay($model->endDateTime) . '</span></p>
                         <p style="height:4px;line-height:0.5px"><span style="margin-right:17px">Location </span>: <span> ' . $model->location . '</span></p> 
-                        <hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>Vertware</b></p>' 
+                        <hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>ShinnedHawks</b></p>' 
             );
             ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);                
         }

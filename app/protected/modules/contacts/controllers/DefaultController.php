@@ -557,7 +557,7 @@
                             $mailContent = array(
                                 'subject' => $subject,
                                 'content' => 'Hi '.$ownerAccount->firstName .', <br> <p> <b>Contact Details:</b> <br> Name: '.$model->firstName.' '.$model->lastName.'<br> Assigned by: '.$contactAssigner->getFullName().' <br> <br> Link: <a href="'.$linkUrl.'">'.$linkUrl.'</a></p> 
-                                <hr> Thanks. <br> Vertware'
+                                <hr> Thanks. <br> ShinnedHawks'
                             );
                             if(count($recipients) > 0) {
                                 ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);

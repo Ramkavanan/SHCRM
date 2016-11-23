@@ -154,7 +154,7 @@
 
         protected static function renderUserSwitcherContainer($switchedUserContent)
         {
-            $content     = ZurmoHtml::tag('h5', array(), Zurmo::t('Core', 'Use Vertware as another user',
+            $content     = ZurmoHtml::tag('h5', array(), Zurmo::t('Core', 'Use  as another user',
                            LabelUtil::getTranslationParamsForAllModules()));
             $content    .= $switchedUserContent;
             $content    .= static::renderUserSwitcherAutoCompleteControl();

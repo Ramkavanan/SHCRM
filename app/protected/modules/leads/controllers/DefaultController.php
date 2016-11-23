@@ -741,7 +741,7 @@
                             $mailContent = array(
                                 'subject' => $subject,
                                 'content' => 'Hi '.$ownerAccount->firstName .', <br> <p> <b>Lead Details:</b> <br> Name: '.$model->firstName.' '.$model->lastName.'<br> Company Name: '.$model->companyName.'<br> Assigned by: '.$leadAssigner->getFullName().' <br> <br> Link: <a href="'.$linkUrl.'">'.$linkUrl.'</a></p> 
-                                <hr> Thanks. <br> Vertware'
+                                <hr> Thanks. <br> ShinnedHawks'
                             );
                             
                             ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);

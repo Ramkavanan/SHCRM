@@ -70,7 +70,7 @@
                     array(
                         'category'         => ZurmoModule::ADMINISTRATION_CATEGORY_GENERAL,
                         'titleLabel'       => "eval:Zurmo::t('ZurmoModule', 'Import')",
-                        'descriptionLabel' => "eval:Zurmo::t('ImportModule', 'Import data into Vertware', LabelUtil::getTranslationParamsForAllModules())",
+                        'descriptionLabel' => "eval:Zurmo::t('ImportModule', 'Import data into ShinnedHawks', LabelUtil::getTranslationParamsForAllModules())",
                         'route'            => '/import/default',
                         'right'            => self::RIGHT_ACCESS_IMPORT,
                     ),

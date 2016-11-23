@@ -97,7 +97,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     $new_redirect_url = Yii::app()->getBaseUrl(true) . '/index.php/agreements/default/details?id=' . $model->agreement->id;                    
                     
                     // For the notify mail link
-                    $new_content = 'The Agreement is Re-assigned for Estimator approval. <br><br> <b>Agreement Details:</b> <br>Name: ' . $newApprovalProcess->agreement->name . '<br>Type: ' . $newApprovalProcess->agreement->RecordType . '  <br>Link: <a href="' . $new_redirect_url . '">' . $new_redirect_url . '</a><br> </p> <hr> <br> Thanks. <br> Vertware';
+                    $new_content = 'The Agreement is Re-assigned for Estimator approval. <br><br> <b>Agreement Details:</b> <br>Name: ' . $newApprovalProcess->agreement->name . '<br>Type: ' . $newApprovalProcess->agreement->RecordType . '  <br>Link: <a href="' . $new_redirect_url . '">' . $new_redirect_url . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks';
                     $urlParams = array('/agreements/default/details', 'id' => $newApprovalProcess->agreement->id);
                     $newApprovalProcess->actualapprover = $model->actualgmapprover;
                     $newApprovalProcess->actualgmapprover = $model->actualgmapprover;
@@ -108,14 +108,14 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     $newApprovalProcess->opportunity = $model->opportunity;
                     $new_redirect_url = Yii::app()->getBaseUrl(true) . '/index.php/opportunities/default/details?id=' . $model->opportunity->id;
                     
-                    $new_content = 'The Opportunity is Re-assigned for Manager approval. <br><br> <b>Opportunity Details:</b> <br>Name: ' . $newApprovalProcess->opportunity->name . '<br>Type: ' . $newApprovalProcess->opportunity->recordType . '  <br>Link: <a href="' . $new_redirect_url . '">' . $new_redirect_url . '</a><br> </p> <hr> <br> Thanks. <br> Vertware';
+                    $new_content = 'The Opportunity is Re-assigned for Manager approval. <br><br> <b>Opportunity Details:</b> <br>Name: ' . $newApprovalProcess->opportunity->name . '<br>Type: ' . $newApprovalProcess->opportunity->recordType . '  <br>Link: <a href="' . $new_redirect_url . '">' . $new_redirect_url . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks';
                     $urlParams = array('/opportunities/default/details', 'id' => $newApprovalProcess->opportunity->id);
                 }
                 else {
                     $newApprovalProcess->opportunity = $model->opportunity;
                     $new_redirect_url = Yii::app()->getBaseUrl(true) . '/index.php/opportunities/default/details?id=' . $model->opportunity->id;
                     
-                    $new_content = 'The Opportunity is Re-assigned for Estimator approval. <br><br> <b>Opportunity Details:</b> <br>Name: ' . $newApprovalProcess->opportunity->name . '<br>Type: ' . $newApprovalProcess->opportunity->recordType . '  <br>Link: <a href="' . $new_redirect_url . '">' . $new_redirect_url . '</a><br> </p> <hr> <br> Thanks. <br> Vertware';
+                    $new_content = 'The Opportunity is Re-assigned for Estimator approval. <br><br> <b>Opportunity Details:</b> <br>Name: ' . $newApprovalProcess->opportunity->name . '<br>Type: ' . $newApprovalProcess->opportunity->recordType . '  <br>Link: <a href="' . $new_redirect_url . '">' . $new_redirect_url . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks';
                     $urlParams = array('/opportunities/default/details', 'id' => $newApprovalProcess->opportunity->id);
                     $newApprovalProcess->actualapprover = $model->actualapprover;
                 }
@@ -256,7 +256,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                 } 
                 $mailContent = array(
                     'subject' => '[VERTWARE] REQUEST FOR AGREEMENT ESTIMATOR APPROVAL',
-                    'content' => 'Hi ' . $userAccount->firstName . ', <br> <p> The Agreement is submitted for Estimator approval. <br><br> <b>Agreement Details:</b><br>Name: ' . $agmnt->name . '<br>Type: ' . $agmnt->RecordType . '<br>Submitted By: ' . $agmnt->owner . ' <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> Vertware'
+                    'content' => 'Hi ' . $userAccount->firstName . ', <br> <p> The Agreement is submitted for Estimator approval. <br><br> <b>Agreement Details:</b><br>Name: ' . $agmnt->name . '<br>Type: ' . $agmnt->RecordType . '<br>Submitted By: ' . $agmnt->owner . ' <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks'
                 );
 
                 $fromAddress = array(
@@ -338,7 +338,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     }
                     $mailContent = array(
                         'subject' => '[VERTWARE] REQUEST FOR ESTIMATOR APPROVAL',
-                        'content' => 'Hi ' . $userAccount->firstName . ', <br> <p> The Opportunity is submitted for Estimator approval. <br><br> <b>Opportunity Details:</b><br>Name: ' . $opt->name . '<br>Type: ' . $opt->recordType . '<br>Submitted By: ' . $opt->owner . ' <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> Vertware'
+                        'content' => 'Hi ' . $userAccount->firstName . ', <br> <p> The Opportunity is submitted for Estimator approval. <br><br> <b>Opportunity Details:</b><br>Name: ' . $opt->name . '<br>Type: ' . $opt->recordType . '<br>Submitted By: ' . $opt->owner . ' <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks'
                     );
 
                     $fromAddress = array(
@@ -365,7 +365,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     }
                     $mailContent = array(
                         'subject' => '[VERTWARE] REQUEST FOR MANAGER APPROVAL',
-                        'content' => 'Hi ' . $name . ', <br> <p> The Opportunity is submitted for Manager Approval. <br><br> <b>Opportunity Details:</b><br>Name: ' . $opt->name . '<br>Type: ' . $opt->recordType . '<br>Submitted By: ' . $opt->owner . ' <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> Vertware'
+                        'content' => 'Hi ' . $name . ', <br> <p> The Opportunity is submitted for Manager Approval. <br><br> <b>Opportunity Details:</b><br>Name: ' . $opt->name . '<br>Type: ' . $opt->recordType . '<br>Submitted By: ' . $opt->owner . ' <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a><br> </p> <hr> <br> Thanks. <br> ShinnedHawks'
                     );
                     $fromAddress = array(
                         'name' => 'VERTWARE',
@@ -597,7 +597,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     $agmnt->save();
                     $mailContent = array(
                             'subject' => '[VERTWARE] AGREEMENT ESTIMATOR  APPROVAL',
-                            'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your estimator submission <b>' . $agreement->name . '</b>  has been Approved <br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br><hr>Thanks. <br> Vertware</p>'
+                            'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your estimator submission <b>' . $agreement->name . '</b>  has been Approved <br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br><hr>Thanks. <br> ShinnedHawks</p>'
                         );
                     if(count($recipients) > 0){
                         ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);
@@ -610,7 +610,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     $mailContent = array(
                         'subject' => '[VERTWARE] AGREEMENT ESTIMATOR REJECTION',
                         'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your estimator submission <b>' . $agreement->name . '</b>  has been rejected, the agreement status has been reverted to Estimate. Please discuss with ' . $agreement->Estimator . ' and resubmit.  <br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br></p> 
-                                    <hr> <br>Thanks. <br>Vertware'
+                                    <hr> <br>Thanks. <br>ShinnedHawks'
                     );
                     if(count($recipients) > 0){
                         ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);
@@ -665,12 +665,12 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     if ($opportunity->stage->value == 'Final Proposal') {
                         $mailContent = array(
                             'subject' => '[VERTWARE] OPPORTUNITY ESTIMATOR  APPROVAL',
-                            'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your estimator submission <b>' . $opportunity->name . '</b>  has been Approved ! The opportunity is now available for Management Approval.<br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br><hr>Thanks. <br> Vertware</p>'
+                            'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your estimator submission <b>' . $opportunity->name . '</b>  has been Approved ! The opportunity is now available for Management Approval.<br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br><hr>Thanks. <br> ShinnedHawks</p>'
                         );
                     } else if ($opportunity->stage->value == 'Agreement') {
                         $mailContent = array(
                             'subject' => '[VERTWARE] OPPORTUNITY MANAGEMENT APPROVAL',
-                            'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your proposal for <b>' . $opportunity->name . '</b>  has been approved. <br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br><hr>Thanks. <br> Vertware</p>'
+                            'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your proposal for <b>' . $opportunity->name . '</b>  has been approved. <br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br><hr>Thanks. <br> ShinnedHawks</p>'
                         );
                     }
                     if(count($recipients) > 0){
@@ -694,7 +694,7 @@ class ApprovalProcessDefaultController extends ZurmoModuleController {
                     $mailContent = array(
                         'subject' => '[VERTWARE] OPPORTUNITY ESTIMATOR REJECTION',
                         'content' => 'Hi ' . $ownerAccount->firstName . ', <br> <p> Your estimator submission <b>' . $opportunity->name . '</b>  has been rejected, the opportunity status has been reverted to Estimate. Please discuss with ' . $opportunity->estimator . ' and resubmit.  <br> <br> Link: <a href="' . $linkUrl . '">' . $linkUrl . '</a> <br></p> 
-                                    <hr> <br>Thanks. <br>Vertware'
+                                    <hr> <br>Thanks. <br>ShinnedHawks'
                     );
                     if(count($recipients) > 0){
                         ApprovalProcessUtils::generateMail($fromAddress, $recipients, $mailContent);

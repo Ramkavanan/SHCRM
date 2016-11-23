@@ -156,7 +156,7 @@
                 }
                 else
                 {
-                    $emailMessage->subject = Zurmo::t('EmailMessagesModule', 'A test email from Vertware',
+                    $emailMessage->subject = Zurmo::t('EmailMessagesModule', 'A test email from ShinnedHawks',
                                          LabelUtil::getTranslationParamsForAllModules());
                 }
                 
@@ -174,10 +174,10 @@
                 {
                     $emailContent              = new EmailMessageContent();
                     $emailContent->textContent = EmailNotificationUtil::resolveNotificationTextTemplate(
-                        Zurmo::t('EmailMessagesModule', 'A test text message from Vertware.',
+                        Zurmo::t('EmailMessagesModule', 'A test text message from ShinnedHawks.',
                         LabelUtil::getTranslationParamsForAllModules()));
                     $emailContent->htmlContent = EmailNotificationUtil::resolveNotificationHtmlTemplate(
-                        Zurmo::t('EmailMessagesModule', 'A test text message from Vertware.',
+                        Zurmo::t('EmailMessagesModule', 'A test text message from ShinnedHawks.',
                         LabelUtil::getTranslationParamsForAllModules()));
                 }
             }

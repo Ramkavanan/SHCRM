@@ -214,7 +214,7 @@
                             <p style="height:4px;line-height:0.5px"><span style="margin-right:17px">Location </span>: <span> ' . $activity->location . '</span></p> 
                             <p style="height:8px"><span style="margin-right:9px"><b>Description</b></span><span>: <ul> '.$activity->description.'</ul></span></p>
                             <p style="height:10px"><span style="margin-right:5px">Organized by</span>:<span> ' . $accountAssigner->getFullName() . '</span></p>
-                            <hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>Vertware</b></p>'  
+                            <hr><p style="height:10px"> Thanks.</p><p style="line-height:0.5px"><b>ShinnedHawks</b></p>'  
                 );
                 
                 // To delete the event in calendar            

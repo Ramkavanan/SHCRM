@@ -117,7 +117,7 @@
                 $content    .= $this->renderOutlookLinkContent();                
             }
             else {
-                //$content    .= '<p>Hello, <br> Your Outlook Account is '.Yii::app()->user->userModel->outlookEmail.' is Synced with Vertware!</p>';
+                //$content    .= '<p>Hello, <br> Your Outlook Account is '.Yii::app()->user->userModel->outlookEmail.' is Synced with ShinnedHawks!</p>';
             }
             $content    .= '</div>';
             $content    .= '<div class="kpi_div" >';

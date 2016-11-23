@@ -144,7 +144,7 @@
                 $this->timeout          = 1400;
             }
             $this->countdown            = 60;
-            $this->title                = Zurmo::t('Core', 'Your Vertware session is about to expire?',
+            $this->title                = Zurmo::t('Core', 'Your ShinnedHawks session is about to expire?',
                                                     LabelUtil::getTranslationParamsForAllModules());
             $this->message              = Zurmo::t('Core', 'You will be logged out in {0} seconds.');
             $this->question             = Zurmo::t('Core', 'Do you want to stay signed in?');

@@ -67,7 +67,7 @@
                     </div>                   
                 </div>
                 <footer id="FooterView">
-                    <div class="container"><a href="#" id="credit-link" class="clearfix"><span>Copyright &#169; Vertware Inc., '.date('Y').'. All rights reserved.</span></a></div>
+                    <div class="container"><a href="#" id="credit-link" class="clearfix"><span>Copyright &#169; ShinnedHawks Inc., '.date('Y').'. All rights reserved.</span></a></div>
                 </footer>
             </div>
             <script type="text/javascript">

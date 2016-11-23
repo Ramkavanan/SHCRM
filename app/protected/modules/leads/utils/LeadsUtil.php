@@ -408,7 +408,7 @@ public static function makePrintView($data, $leadId) {
                         <div style="padding:20px;">
                             <hr>
                             <div>
-                                </br>Copyright Vertware, Inc. All rights reserved.
+                                </br>Copyright ShinnedHawks, Inc. All rights reserved.
                             </div>
                         </div>        
                     </div>
