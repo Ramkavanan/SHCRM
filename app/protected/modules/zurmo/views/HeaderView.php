@@ -142,11 +142,11 @@
             if (Yii::app()->userInterface->isMobile())
             {
                 //make sure width and height are NEVER defined
-                $content   .= '<img src="' . $logoFileSrc . '" alt="Zurmo Logo" />';
+                $content   .= '<img src="' . $logoFileSrc . '" alt="SH Logo" />';
             }
             else
             {
-                $content   .= '<img src="' . $logoFileSrc . '" alt="Zurmo Logo" height="'
+                $content   .= '<img src="' . $logoFileSrc . '" alt="SH Logo" height="'
                               . $logoHeight .'" width="' . $logoWidth .'" />';
             }
             if ($this->applicationName != null)
